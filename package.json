@@ -1,0 +1,16 @@
+{
+  "name": "firma-digital",
+  "version": "1.0.0",
+  "description": "programa para firmar electronicamente certificados de experiencias FABLAB UV ",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./index.js"
+  },
+  "author": "Pedro Pablo López Mena",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "pdfkit": "^0.13.0"
+  }
+}
