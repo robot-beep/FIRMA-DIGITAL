@@ -4,7 +4,7 @@ const controller = require("./pdfMaker.controller");
 
 router.get('/prueba', (req, res)=>{
     res.send("está es mi primera ruta");
-    controller.createDoc("prueba");
+    controller.createDoc("prueba de desempeño");
 }); 
 
 
