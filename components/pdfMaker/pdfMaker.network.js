@@ -7,5 +7,8 @@ router.get('/prueba', (req, res)=>{
     controller.createDoc("prueba");
 }); 
 
+router.get('/parse', async (req, res)=>{
+    console.log(await controller.parse());
+})
 
 module.exports = router; 
